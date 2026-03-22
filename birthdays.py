@@ -25,7 +25,7 @@ from typing import List, Dict, Union
 
 BIRTHDAYS: List[Dict[str, Union[str, int]]] = [
     # Test du jour - à supprimer après vérification
-    {"user_id": "123456789012345678", "day": 22, "month": 3, "name": "TestBot"},
+    {"user_id": "1464959985183101072", "day": 22, "month": 3, "name": "TestBot"},
     # Ajoutez vos joueurs ici
 ]
 
