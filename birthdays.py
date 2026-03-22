@@ -28,6 +28,10 @@ BIRTHDAYS: List[Dict[str, Union[str, int]]] = [
     {"user_id": "1464959985183101072", "day": 22, "month": 3, "name": "TestBot"},
     # Ajoutez vos joueurs ici
     {"user_id": "1359566489358700735", "day":19, "month": 3, "name": "Fabienne"},
+    {"user_id": "840859819522261033", "day": 9, "month": 5, "name": "Claudine"},
+    {"user_id": "840855337984065547", "day": 7, "month": 6, "name": "André"},
+    {"user_id": "769243798756130896", "day": 26, "month": 6, "name": "Laurent"}
+   
 ]
 
 # ==============================================================================
