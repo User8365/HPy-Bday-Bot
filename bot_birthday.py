@@ -120,8 +120,17 @@ def send_discord_embed(embed: dict) -> bool:
         "embeds": [embed]
     }
 
+    # Logs de debug
+    print(f"[DEBUG] URL de l'API: {url}")
+    print(f"[DEBUG] Token présent: {'Oui' if DISCORD_TOKEN else 'Non'}")
+    print(f"[DEBUG] Channel ID: {CHANNEL_ID}")
+    print(f"[DEBUG] Payload: {payload}")
+
     try:
         response = requests.post(url, headers=headers, json=payload, timeout=30)
+        print(f"[DEBUG] Status HTTP: {response.status_code}")
+        print(f"[DEBUG] Réponse Discord: {response.text}")
+        
         response.raise_for_status()
         print(f"[SUCCÈS] Embed envoyé (HTTP {response.status_code})")
         return True
