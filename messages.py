@@ -40,15 +40,24 @@ BIRTHDAY_MESSAGES: List[str] = [
     "🏆🌊 {team_role} faites du bruit ! 📯 C'est le grand jour de {mention} ! Joyeux anniversaire ! Que cette année soit parsemée de podiums et que ta route soit toujours vent arrière ! ⛵⚓🎂🎉",
 
     # 🎉 Messages existants (conservés)
-    "🎉🎂 Bon anniversaire {mention} ! Que le vent soit toujours favorable pour toi cette année ! ⛵",
-    "⚓ {mention}, joyeux anniversaire ! Une année de plus à ton actif, un cap de plus à franchir ! 🎂",
+    "🎉🎂 Bon anniversaire {mention} ! Que le vent te soit toujours favorable cette année et toutes les autres ! ⛵",
+    
+    "⚓ {mention}, joyeux anniversaire ! Une année de plus à ton actif, un cap de plus à franchir serein ! 🎂",
+    
     "🌊⛵ Ahoy {mention} ! Joyeux anniversaire ! Puisse ta nouvelle année être calme et vent dans le dos ! 🎉",
+    
     "🎂 Bon anniversaire {mention} ! Que ta boussole te guide vers de nouvelles aventures virtuelles ! ⛵⚓",
+    
     "🏆 {mention}, toute l'équipe te souhaite un joyeux anniversaire ! Bon vent et bonne navigation ! 🎉",
+    
     "🌅 Bon anniversaire {mention} ! Une nouvelle année qui se lève à l'horizon, pleine de promesses ! ⛵🎂",
+    
     "⚓🎉 Joyeux anniversaire {mention} ! Que les vagues de la vie t'emportent vers le succès ! 🌊",
+    
     "🎂 {mention}, la flotte te souhaite un excellent anniversaire ! Prêt(e) à hisser les voiles pour une nouvelle année ? ⛵",
+    
     "⛵🎉 Bon anniversaire {mention} ! Que cette année soit parsemée de bons vents et de belles victoires ! 🏆",
+    
     "🌊 {mention}, joyeux anniversaire ! Une bouée de plus franchie sur le parcours de la vie ! 🎂⚓",
 ]
 
