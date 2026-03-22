@@ -27,6 +27,7 @@ BIRTHDAYS: List[Dict[str, Union[str, int]]] = [
     # Test du jour - à supprimer après vérification
     {"user_id": "1464959985183101072", "day": 22, "month": 3, "name": "TestBot"},
     # Ajoutez vos joueurs ici
+    {"user_id": "1359566489358700735", "day":19, "month": 3, "name": "Fabienne"},
 ]
 
 # ==============================================================================
