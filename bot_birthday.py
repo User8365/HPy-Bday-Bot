@@ -91,7 +91,7 @@ def create_birthday_embed(user_id: str, user_name: str, message: str) -> dict:
         "description": formatted_message,
         "color": EMBED_COLOR,
         "footer": {
-            "text": "🎂 Bot d'anniversaires Virtual Regatta"
+            "text": "🎂 Anniversaires des membres de la team HPy"
         },
         "timestamp": datetime.utcnow().isoformat()
     }
