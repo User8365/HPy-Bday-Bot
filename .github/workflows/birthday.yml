@@ -1,0 +1,33 @@
+name: Birthday Bot
+
+on:
+  schedule:
+    # Exécution tous les jours à 7h00 Europe/Paris (6h00 UTC)
+    - cron: '0 6 * * *'
+  workflow_dispatch:  # Permet le déclenchement manuel pour tests
+
+jobs:
+  send-birthday-messages:
+    name: Send Birthday Messages
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run birthday bot
+        env:
+          DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
+          BIRTHDAY_CHANNEL_ID: ${{ secrets.BIRTHDAY_CHANNEL_ID }}
+          TEAM_ROLE_ID: ${{ secrets.TEAM_ROLE_ID }}
+        run: |
+          python bot_birthday.py
