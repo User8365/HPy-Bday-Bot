@@ -24,7 +24,8 @@ from typing import List, Dict, Union
 # ==============================================================================
 
 BIRTHDAYS: List[Dict[str, Union[str, int]]] = [
-    # Exemple : {"user_id": "123456789012345678", "day": 15, "month": 6, "name": "PseudoJoueur"},
+    # Test du jour - à supprimer après vérification
+    {"user_id": "123456789012345678", "day": 22, "month": 3, "name": "TestBot"},
     # Ajoutez vos joueurs ici
 ]
 
